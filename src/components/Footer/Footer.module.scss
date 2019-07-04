@@ -1,0 +1,28 @@
+.container {
+  margin: auto;
+  background-color: rgb(155, 153, 153);
+  color: rgb(24, 24, 24);
+  padding: 10px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+ul li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+ul li a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-weight: bold;
+}

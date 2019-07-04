@@ -1,0 +1,36 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 20px 20px 20px;
+
+  @media screen and (max-width: 540px) {
+    text-align: justify;
+  }
+}
+
+.header {
+  font-size: 25px;
+  color: #28678A;
+}
+
+.about {
+  --x-height-multiplier: 0.375;
+  --baseline-multiplier: 0.17;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  color: rgb(17, 16, 16);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(223, 103, 67);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

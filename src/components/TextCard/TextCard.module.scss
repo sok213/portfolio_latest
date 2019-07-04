@@ -1,0 +1,124 @@
+.textCardContainer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    max-width: 800px;
+    flex-grow: 2;
+}
+
+.textContent {
+    width: 100%;
+    text-align: justify;
+}
+
+.techIcons {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 15px;
+    margin: 0px;
+    margin-top: 24px;
+    
+    li {
+        margin: 0px 15px;
+        font-size: 55px;
+        color: white;
+        opacity: 0.8;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        .subText {
+            font-size: 14px;
+            margin-top: 10px;
+            opacity: 0;
+            transition: 0.7s;
+            font-weight: bold;
+        }
+
+        &:hover {
+            opacity: 1;
+
+            .subText {
+                opacity: 1;
+            }
+
+            .javascriptLogo {
+                color: #F0D53C;
+
+                .subText {
+                    color: #F0D53C;
+                }
+            }
+
+            .reactLogo {
+                color: #01D1F7;
+
+                .subText {
+                    color: #01D1F7;
+                }
+            }
+
+            .htmlLogo {
+                color: rgb(236, 143, 103);
+
+                .subText {
+                    color: rgb(236, 143, 103);
+                }
+            }
+
+            .cssLogo {
+                color: rgb(81, 160, 224);
+
+                .subText {
+                    color: rgb(81, 160, 224);
+                }
+            }
+        }
+
+        @media screen and (max-width: 570px) {
+            font-size: 45px;
+            margin: 0px 6px;
+        }
+    }
+}
+
+.header {
+  font-size: 25px;
+  color: #28678A;
+}
+
+.techIconsContainer {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 153, 153);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .buttonText {
+        font-size: 16px;
+        margin-right: 7px;
+        margin-left: 5px;
+        position: relative;
+        top: -4px;
+    }
+}
