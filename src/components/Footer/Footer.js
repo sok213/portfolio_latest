@@ -11,7 +11,7 @@ class Footer extends Component {
               <a href="https://www.linkedin.com/in/sophanarith-sok-a50097b7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </li>
             <li>
-              <a href="https://medium.com/@sok213" target="_blank" rel="noopener noreferrer">Medium</a>
+              <a href="https://codepen.io/sok213/" target="_blank" rel="noopener noreferrer">CodePen</a>
             </li>
             <li>
               <a href="https://blog.paralect.com/post/3-ux-design-trends-are-hurting-your-online-business" target="_blank" rel="noopener noreferrer">Blog</a>
