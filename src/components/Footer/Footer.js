@@ -17,7 +17,7 @@ class Footer extends Component {
               <a href="https://blog.paralect.com/post/3-ux-design-trends-are-hurting-your-online-business" target="_blank" rel="noopener noreferrer">Blog</a>
             </li>
             <li>
-              <a href="mailto:sokcodes@gmail.com" target="_top" rel="noopener noreferrer">Email</a>
+              <a href="https://github.com/sok213?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
             </li>
           </ul>
         </div>
